@@ -3595,3 +3595,17 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+/* Optimización de imágenes para LCP */
+:root {
+    --image-max-width: 100%;
+    --image-max-height: auto;
+    --image-border-radius: 8px;
+}
+
+img, picture {
+    max-width: var(--image-max-width);
+    height: var(--image-max-height);
+    border-radius: var(--image-border-radius);
+    display: block;
+}
