@@ -1,1 +1,26 @@
-{"name":"t:sections.header.name","type":"header","sections":{"header":{"type":"header","settings":{"logo_position":"top-center","mobile_logo_position":"center","menu":"customer-account-main-menu","menu_type_desktop":"dropdown","sticky_header_type":"none","show_line_separator":true,"color_scheme":"scheme-82dd69c0-f20b-4452-8e1d-763d031df623","menu_color_scheme":"scheme-289d59f2-533e-467b-98c5-71a98cd0f424","enable_country_selector":true,"enable_language_selector":true,"enable_customer_avatar":false,"margin_bottom":0,"padding_top":0,"padding_bottom":0}}},"order":["header"]}
+{
+    "name":"t:sections.header.name",
+    "type":"header",
+    "sections":{
+        "header":{
+            "type":"header",
+            "settings":{
+                "logo_position":"top-center",
+                "mobile_logo_position":"center",
+                "menu":"customer-account-main-menu",
+                "menu_type_desktop":"dropdown",
+                "sticky_header_type":"none",
+                "show_line_separator":true,
+                "color_scheme":"scheme-82dd69c0-f20b-4452-8e1d-763d031df623",
+                "menu_color_scheme":"scheme-289d59f2-533e-467b-98c5-71a98cd0f424",
+                "enable_country_selector":true,
+                "enable_language_selector":true,
+                "enable_customer_avatar":false,
+                "margin_bottom":0,
+                "padding_top":0,
+                "padding_bottom":0
+            }
+        }
+    },
+    "order":["header"]
+}
