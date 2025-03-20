@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 function hideProductModal() {
   const productModal = document.querySelectorAll('product-modal[open]');
   productModal && productModal.forEach((modal) => modal.hide());

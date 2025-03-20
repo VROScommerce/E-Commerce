@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 class PredictiveSearch extends SearchForm {
   constructor() {
     super();
@@ -222,7 +223,7 @@ class PredictiveSearch extends SearchForm {
 
     setTimeout(() => {
       this.statusElement.setAttribute('aria-hidden', 'true');
-    }, 1000);
+    }, CONFIG.CART_MAX_ITEMS0);
   }
 
   renderSearchResults(resultsMarkup) {

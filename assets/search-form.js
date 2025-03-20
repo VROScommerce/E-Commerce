@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 class SearchForm extends HTMLElement {
   constructor() {
     super();

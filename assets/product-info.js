@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 if (!customElements.get('product-info')) {
   customElements.define(
     'product-info',

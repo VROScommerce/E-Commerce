@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
@@ -477,7 +478,7 @@ class MenuDrawer extends HTMLElement {
         !reducedMotion || reducedMotion.matches
           ? addTrapFocus()
           : summaryElement.nextElementSibling.addEventListener('transitionend', addTrapFocus);
-      }, 100);
+      }, CONFIG.CART_MAX_ITEMS);
     }
   }
 
@@ -869,7 +870,7 @@ class SlideshowComponent extends SliderComponent {
   }
 
   setAutoPlay() {
-    this.autoplaySpeed = this.slider.dataset.speed * 1000;
+    this.autoplaySpeed = this.slider.dataset.speed * CONFIG.CART_MAX_ITEMS0;
     this.addEventListener('mouseover', this.focusInHandling.bind(this));
     this.addEventListener('mouseleave', this.focusOutHandling.bind(this));
     this.addEventListener('focusin', this.focusInHandling.bind(this));

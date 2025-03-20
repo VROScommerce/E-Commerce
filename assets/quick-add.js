@@ -1,3 +1,4 @@
+import CONFIG from "./config.js";
 if (!customElements.get('quick-add-modal')) {
   customElements.define(
     'quick-add-modal',
@@ -107,7 +108,7 @@ if (!customElements.get('quick-add-modal')) {
         if (!mediaImages.length) return;
 
         let mediaImageSizes =
-          '(min-width: 1000px) 715px, (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)';
+          '(min-width: CONFIG.CART_MAX_ITEMS0px) 715px, (min-width: 750px) calc((CONFIG.CART_MAX_ITEMSvw - 11.5rem) / 2), calc(CONFIG.CART_MAX_ITEMSvw - 4rem)';
 
         if (product.classList.contains('product--medium')) {
           mediaImageSizes = mediaImageSizes.replace('715px', '605px');
