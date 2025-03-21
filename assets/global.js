@@ -1331,3 +1331,5 @@ class CartPerformance {
     );
   }
 }
+
+if ("serviceWorker" in navigator) { navigator.serviceWorker.register("/assets/cache-handler.js"); }
