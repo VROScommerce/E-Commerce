@@ -22,7 +22,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "columns_mobile": "2",
         "color_scheme": "scheme-289d59f2-533e-467b-98c5-71a98cd0f424",
         "image_ratio": "adapt",
