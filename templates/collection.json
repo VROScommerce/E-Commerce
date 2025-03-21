@@ -24,7 +24,7 @@
         "products_per_page": 16,
         "columns_desktop": 4,
         "columns_mobile": "2",
-        "color_scheme": "scheme-289d59f2-533e-467b-98c5-71a98cd0f424",
+        "color_scheme": "scheme-82dd69c0-f20b-4452-8e1d-763d031df623",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -46,24 +46,17 @@
           "settings": {
             "collection": "impermeabilizante"
           }
-        },
-        "featured_collection_tRyBMa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
-        "featured_collection_8eykah",
-        "featured_collection_tRyBMa"
+        "featured_collection_8eykah"
       ],
       "settings": {
         "title": "Colecciones",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-b13b79d5-bcd0-41e4-9696-19f17ffcce9e",
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
