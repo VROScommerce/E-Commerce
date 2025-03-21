@@ -1,1 +1,64 @@
-{"sections":{"image_banner_x9edzP":{"type":"image-banner","blocks":{"heading_pXmC7m":{"type":"heading","settings":{"heading":"Construye sueños","heading_size":"h0"}},"text_N3fNH6":{"type":"text","settings":{"text":"Compra una amplia gama de productos para techos, paredes, pisos y más, con ofertas y promociones únicas","text_style":"subtitle"}},"buttons_zyVkhz":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"TIENDA","button_link_2":"shopify:\/\/collections","button_style_secondary_2":true}}},"block_order":["heading_pXmC7m","text_N3fNH6","buttons_zyVkhz"],"settings":{"image":"shopify:\/\/shop_images\/crea-un-fondo-para-una-pagina-web-naranga_-la-pagina-web-se-dedica-a-la-venta-de-elementos-de-tecnologia_-ropa-y-cosas-del-hogar.png","image_overlay_opacity":20,"image_height":"large","image_behavior":"fixed","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"scheme-82dd69c0-f20b-4452-8e1d-763d031df623","stack_images_on_mobile":true,"mobile_content_alignment":"center","show_text_below":false}}},"order":["image_banner_x9edzP"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_x9edzP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pXmC7m": {
+          "type": "heading",
+          "settings": {
+            "heading": "Construye sueños",
+            "heading_size": "h0"
+          }
+        },
+        "text_N3fNH6": {
+          "type": "text",
+          "settings": {
+            "text": "Compra una amplia gama de productos para techos, paredes, pisos y más, con ofertas y promociones únicas",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_zyVkhz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "TIENDA",
+            "button_link_2": "shopify://collections",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pXmC7m",
+        "text_N3fNH6",
+        "buttons_zyVkhz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_-_WEBP.webp",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-82dd69c0-f20b-4452-8e1d-763d031df623",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "image_banner_x9edzP"
+  ]
+}
