@@ -1,10 +1,18 @@
 
-<!-- Optimización de carga de fuentes para reducir FCP -->
-<link rel="preload" href="https://fonts.shopifycdn.com/montserrat/montserrat_n4.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="https://fonts.shopifycdn.com/montserrat/montserrat_n7.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<!-- Optimización de carga de fuentes sin errores de precarga -->
 <style>
-  body { font-display: swap; }
+  @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url('https://fonts.shopifycdn.com/montserrat/montserrat_n4.woff2') format('woff2');
+  }
+
+  body { font-family: 'Montserrat', sans-serif; }
 </style>
+
 
 <!-- Optimización de carga de terceros -->
 <link rel="preconnect" href="https://s1-cdn.a2rev.com">
