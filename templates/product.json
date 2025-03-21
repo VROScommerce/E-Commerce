@@ -21,7 +21,7 @@
           "settings": {
             "type": "product",
             "show_total_rating": true,
-            "show_avg": false,
+            "show_avg": true,
             "show_text": true,
             "js_custom": "// Do callback"
           }
@@ -179,7 +179,7 @@
           "settings": {
             "is_hide_when_zero": true,
             "type": "reviews",
-            "disable_script": true
+            "disable_script": false
           }
         }
       },
